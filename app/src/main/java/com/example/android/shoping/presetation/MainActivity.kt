@@ -8,6 +8,7 @@ import com.example.android.shoping.R
 
 class MainActivity : AppCompatActivity() {
 
+    private var test = "Test var for commit and pull request"
     private lateinit var viewModel: MainViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
