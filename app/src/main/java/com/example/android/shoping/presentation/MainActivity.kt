@@ -1,4 +1,4 @@
-package com.example.android.shoping.presetation
+package com.example.android.shoping.presentation
 
 import android.os.Bundle
 import android.util.Log
