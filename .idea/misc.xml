@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Shoping/app/src/main/res/drawable/ic_add.xml" value="0.1" />
         <entry key="..\:/Android/Shoping/app/src/main/res/layout/activity_main.xml" value="0.2361111111111111" />
+        <entry key="..\:/Android/Shoping/app/src/main/res/layout/item_shop_disabled.xml" value="0.19947916666666668" />
+        <entry key="..\:/Android/Shoping/app/src/main/res/layout/item_shop_enabled.xml" value="0.19947916666666668" />
       </map>
     </option>
   </component>
