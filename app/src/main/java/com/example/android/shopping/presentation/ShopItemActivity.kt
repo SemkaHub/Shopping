@@ -1,4 +1,4 @@
-package com.example.android.shoping.presentation
+package com.example.android.shopping.presentation
 
 import android.content.Context
 import android.content.Intent
@@ -9,13 +9,13 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.example.android.shoping.R
-import com.example.android.shoping.domain.ShopItem
+import com.example.android.shopping.R
+import com.example.android.shopping.domain.ShopItem
 import com.google.android.material.textfield.TextInputLayout
 
 class ShopItemActivity : AppCompatActivity() {
 
-    private lateinit var viewModel: ShopItemViewModel
+   /* private lateinit var viewModel: ShopItemViewModel
 
     private lateinit var tilName: TextInputLayout
     private lateinit var tilCount: TextInputLayout
@@ -24,19 +24,19 @@ class ShopItemActivity : AppCompatActivity() {
     private lateinit var buttonSave: Button
 
     private var screenMode = MODE_UNKNOWN
-    private var shopItemId = ShopItem.UNDEFINED_ID
+    private var shopItemId = ShopItem.UNDEFINED_ID*/
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shop_item)
-        parseIntent()
+        /*parseIntent()
         viewModel = ViewModelProvider(this)[ShopItemViewModel::class.java]
         initViews()
         addTextChangeListeners()
         observeViewModel()
-        launchRightMode()
+        launchRightMode()*/
     }
-
+/*
     private fun launchRightMode() {
         when (screenMode) {
             MODE_EDIT -> launchEditMode()
@@ -145,7 +145,7 @@ class ShopItemActivity : AppCompatActivity() {
         etName = findViewById(R.id.et_name)
         etCount = findViewById(R.id.et_count)
         buttonSave = findViewById(R.id.save_button)
-    }
+    }*/
 
     companion object {
 

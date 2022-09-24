@@ -1,4 +1,4 @@
-package com.example.android.shoping.presentation
+package com.example.android.shopping.presentation
 
 import android.os.Bundle
 import android.util.Log
@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import com.example.android.shoping.R
+import com.example.android.shopping.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class MainActivity : AppCompatActivity() {

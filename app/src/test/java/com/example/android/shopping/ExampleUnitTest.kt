@@ -1,4 +1,4 @@
-package com.example.android.shoping
+package com.example.android.shopping
 
 import org.junit.Test
 
