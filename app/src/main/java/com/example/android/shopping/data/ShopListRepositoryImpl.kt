@@ -1,9 +1,9 @@
-package com.example.android.shoping.data
+package com.example.android.shopping.data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.android.shoping.domain.ShopItem
-import com.example.android.shoping.domain.ShopListRepository
+import com.example.android.shopping.domain.ShopItem
+import com.example.android.shopping.domain.ShopListRepository
 import kotlin.random.Random
 
 object ShopListRepositoryImpl : ShopListRepository {

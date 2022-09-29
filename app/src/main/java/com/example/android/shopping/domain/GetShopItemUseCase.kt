@@ -1,4 +1,4 @@
-package com.example.android.shoping.domain
+package com.example.android.shopping.domain
 
 class GetShopItemUseCase(private val shopListRepository: ShopListRepository) {
 
